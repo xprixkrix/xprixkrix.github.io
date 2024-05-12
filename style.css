@@ -1,0 +1,137 @@
+@font-face {
+    src: "";
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+* { padding: 0; margin: 0; }
+html,body { height: 100%; width: 100%; }
+body {
+    min-width: 150; font-family: sans-serif; display: table;
+    background-color: rgb(240, 224, 227);
+}
+body {
+    max-width: 600px; 
+margin: 0 auto !important; 
+float: none !important; 
+}
+#logo{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+} 
+#container {
+    display: table-cell; vertical-align: middle; text-align: center;
+    padding: 1em;
+}
+#inner {
+    display: inline-block; padding: 1rem; 
+}
+#inner > p {
+    display: block; font-size: 3rem; padding: 0.3rem 0;
+}
+#inner > q {
+    display: block; font-size: 1rem; padding: 0.3rem 0;
+}
+q {
+    quotes: none;
+}
+ul {
+    display: inline-block; list-style-type:none; padding: 0.6rem 0 0.3rem 0;
+}
+a {
+    text-decoration: none;
+    color: 5A2FC2;
+}
+a .goog {
+    text-decoration: none;
+    color: 4285F4;
+}
+
+.maintext {
+    max-width: 1080px;
+    margin-bottom: 5em;
+}
+.maintext p {
+    line-height: 1.5;
+    font-weight:500;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    padding-top: 10px;
+    }
+
+.maintext .blog-heading {
+    text-align: left;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-family: 'Merriweather';
+}
+.emgithub-container .code-area {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.hexembed{
+    padding-top: 10px;
+}
+
+.iphone-vid {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.gist-data {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+    
+li.home {
+    list-style: none; margin: 0 0.3rem; float: left;
+}
+li.home > a {
+    color: #000; font-size: 1.3rem; letter-spacing: 0.1em;
+    text-decoration: none; display: block; padding: 0.9rem 1rem; align-content: center;
+}
+li.home > a:hover {
+    background-color: rgb(225, 141, 246);
+}
+
+li.blog {
+    line-height: 2;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hex {
+    margin: 1em;
+    box-shadow:
+0 1.3px 2.2px rgba(0, 0, 0, 0.02),
+0 3.2px 5.3px rgba(0, 0, 0, 0.028),
+0 6px 10px rgba(0, 0, 0, 0.035),
+0 10.7px 17.9px rgba(0, 0, 0, 0.042),
+0 20.1px 33.4px rgba(0, 0, 0, 0.05),
+0 48px 80px rgba(0, 0, 0, 0.07)
+;
+flex-grow: 1;
+height:90%;
+border-radius: 4px;
+
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+
